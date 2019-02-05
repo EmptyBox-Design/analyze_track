@@ -52,11 +52,11 @@ dump file of sound analysis in an array of objects.
 | d3 | distribution zone 3 | 257 - 383 | d2 < d3 < d4 |
 | d4 | distribution zone 4 | 384 - 512 | d3 < d4 <= 512 |
 
-#### Wavelength
+<!-- #### Wavelength -->
 
 ![wavelength-breakdown](/images/wavelength_breakdown.png)
 
-### Dimension
+<!-- ### Dimension -->
 
 ![dimension-breakdown](images/dimension_breakdown.png)
 
