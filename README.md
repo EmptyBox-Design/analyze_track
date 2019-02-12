@@ -18,19 +18,67 @@ We as humans only understand certain sounds, based on numerous factors and compo
 
 Review 5 songs from each genre, then cross-compare their sound waves and see if there exist any verbose similarities between them. Focusing on the amplitude or height of each wavelength of sound and the distribution of amplitudes across a given song. The genre categorizations are derived from Spotify.
 
-### Genres
+### Songs By Genre
 
 * Country
+    * Here you Come Again - Dolly Parton
+    * Y'all Boys - Florida Georgia Line
+    * Kentucky Waltz - Bill Monroe
+    * Seven Spanish Angels - Willie Nelson and Ray Charles
+    * I Walk the Line - Johnny Cash
 * EDM
+    * Beggin for Thread - Banks
+    * Midnight City - M83
+    * Sell Out - Marshmello
+    * Titanium - David Guetta feat Sia
+    * Wake Me Up - Avicii
 * Hip-Hop
+    * Two Words - Kanye West
+    * Wu Tang Aint Nuthing to F'Wit - Wu Tang Clan
+    * Hypnotize - Notrious B.I.G
+    * Hey Ya - Oukast
 * Indie
+    * Little Lion Man - Mumford and Sons
+    * R U Mine? - Artic Monkeys
+    * Buoys - Panda Bear
+    * Love - Lana Del Ray
+    * Light On - Maggie Rogers
 * Metal
-* Punk
+    * A Little Piece of Heaven - Avenged Sevenfold
+    * Tears Don't Fall - Bullet for my Valentine
+    * The American Nightmare - Ice Nine Kills
+    * Can You Feel My Heart - Bring Me the Horizon
+    * Enter Sandman - Metalica
+* Pop
+    * Hot N Cold - Katy Perry
+    * Shake it Off - Taylor Swift
+    * Don't Stop 'Til You Get Enough - Michael Jackson
+    * Break up with your girlfriend - Adriana Grande
+    * Dancing with a Stranger - Sam Smith 
 * Reggae
+    * Stone Love - Pepper
+    * Santeria - Sublime
+    * Lay me Down - Dirty Heads
+    * Feeling Alright - Rebulution
+    * Summer Nights - Irationa
 * Rock
+    * Downfall of us All - A Day to Remember
+    * Crawling - Linkin Park
+    * You Worry Me - Nathaniel Rateliff & the Night Sweats
+    * Shout at the Devil - Motley Crue
+    * Crazy Train - Ozzy
 * Rap
+    * Sloppy Seconds - Watsky
+    * Neon Cathedral - Macklemore
+    * Till I Collpase - Eminem
+    * Wow. - Post Malone
+    * Finesse - Bruno Mars and Cardi 
 * Soul
-
+    * You Make Me Wanna - Usher
+    * Real Love - Mary J Blige
+    * September - Earth Wind and Fire
+    * What is Hip? - Tower of Power
+    * I Want You Back - Jackson Five
 
 ### Inputs
 
