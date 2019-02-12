@@ -1,6 +1,5 @@
+import processing.sound.*;
 
-
-import processing.sound.*; 
 SoundFile file;
 Amplitude amp;
 AudioIn in;
@@ -22,7 +21,6 @@ public color colorSelector(int index) {
   int roundVal= (int) Math.round(h);
   return colorArray[roundVal];
 }
-
 public void setup() {
   // size the canvas
   size(512, 800);
@@ -39,7 +37,9 @@ public void setup() {
   fft.input(in);
   file = new SoundFile(this, activeSong);
   file.play();
-}     
+
+  //saveFile();
+}
 // input is current max height of the line
 // checks to see if every band has been drawn
 // if so then incrament the height of the next line
