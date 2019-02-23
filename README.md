@@ -27,58 +27,87 @@ Review 5 songs from each genre, then cross-compare their sound waves and see if 
     * Seven Spanish Angels - Willie Nelson and Ray Charles
     * I Walk the Line - Johnny Cash
 * EDM
-    * Beggin for Thread - Banks
-    * Midnight City - M83
-    * Sell Out - Marshmello
-    * Titanium - David Guetta feat Sia
-    * Wake Me Up - Avicii
+    * Hi Friend - Deadouse - DONE
+    * Kids - MGMT
+    * Jar of Hearts - Twenty One Pilots - DONE
+    * reccess - Skrillex
 * Hip-Hop
-    * Two Words - Kanye West
+    * Big Poppa - Notorious B.I.G
     * Wu Tang Aint Nuthing to F'Wit - Wu Tang Clan
-    * Hypnotize - Notrious B.I.G
+    * Feel Good - Gorrillaz
     * Hey Ya - Oukast
+    * Neon Cathedral - Macklemore & Ryan Lous
 * Indie
     * Little Lion Man - Mumford and Sons
-    * R U Mine? - Artic Monkeys
-    * Buoys - Panda Bear
-    * Love - Lana Del Ray
-    * Light On - Maggie Rogers
+    * Home - Edward Sharpe and the Magnetic Zereos
+    * Grand Budapest Hotel - Georze Erza
+    * Cameras - Matt and Kim
+    * Twin Size Mattress - Front Bottoms
 * Metal
-    * A Little Piece of Heaven - Avenged Sevenfold
+    * Almost Easy - Avenged Sevenfold
     * Tears Don't Fall - Bullet for my Valentine
-    * The American Nightmare - Ice Nine Kills
-    * Can You Feel My Heart - Bring Me the Horizon
+    * Chop Suey - System of the Down
+    * Wrong Side of Heaven - Five Finger Death Punch
     * Enter Sandman - Metalica
+    * Paranoia - A Day To Remember
 * Pop
-    * Hot N Cold - Katy Perry
-    * Shake it Off - Taylor Swift
-    * Don't Stop 'Til You Get Enough - Michael Jackson
-    * Break up with your girlfriend - Adriana Grande
-    * Dancing with a Stranger - Sam Smith 
+    * Teenage Dream - Katy Perry
+    * Locked out of Heaven - Bruno Mars
+    * Only One - Sam Smith
+    * Blank Space - Taylor Swift
+    * All Star - Smash Mouth
+    * I Gotta Feeling - Black Eyed Peas
 * Reggae
-    * Stone Love - Pepper
+    * Count Me In - Pepper
     * Santeria - Sublime
     * Lay me Down - Dirty Heads
-    * Feeling Alright - Rebulution
-    * Summer Nights - Irationa
-* Rock
-    * Downfall of us All - A Day to Remember
-    * Crawling - Linkin Park
-    * You Worry Me - Nathaniel Rateliff & the Night Sweats
-    * Shout at the Devil - Motley Crue
-    * Crazy Train - Ozzy
+    * House - Jimmy Cliff
 * Rap
     * Sloppy Seconds - Watsky
-    * Neon Cathedral - Macklemore
+    * Lace Up - Machine Gun Kelly
     * Till I Collpase - Eminem
-    * Wow. - Post Malone
-    * Finesse - Bruno Mars and Cardi 
+    * Best Friend - Yelowolf
+    * Breath of Air - Grieves
+* Rock
+    * Even Flow - Pearl Jam
+    * Sail - Awolnation
+    * Crazy Train - Ozzy
+    * Cult of Personality - Living Colour
+    * Boogie - ZZ Top
 * Soul
-    * You Make Me Wanna - Usher
-    * Real Love - Mary J Blige
+    * Africa - Toto
+    * Saturday - Chicago
     * September - Earth Wind and Fire
     * What is Hip? - Tower of Power
-    * I Want You Back - Jackson Five
+    * Superstition - Stevie Wonder
+
+
+| genre | song name | song artist | song duration | meta data | index/value csv created? |
+|--------|--------------------------------|-------------------|---------------|-----------|--------------------------|
+| edm | Hi Friend | deadmouse |  |  | TRUE |
+| edm | jar of hearts | twenty one pilots |  |  | TRUE |
+| edm | kids | MGMT |  |  | TRUE |
+| edm | recess | Skrllex |  |  | TRUE |
+| hiphop | big poppa | Notrious B.I.G |  |  | TRUE |
+| hiphop | hey ya | Outkast |  |  | TRUE |
+| hiphop | feel good | Gorrillaz |  |  | TRUE |
+| hiphop | wu tang ain't nothing to f'wit | Wu Tang Clan |  |  |  |
+| hiphop | neon cathedral | Macklemore |  |  | TRUE |
+| indie | cameras | Matt and Kim |  |  | TRUE |
+| indie | home | Edward Sharpe and Magnetic Zeroes |  |  | TRUE |
+| indie | Budapest Hotel | George Ezra |  |  |  |
+| indie | Little Lion Man | Mumford and Sons |  |  |  |
+| indie | Twin Size Mattress | The Front Bottoms |  |  |  |
+| metal | almost easy | Avenged Sevenfold |  |  |  |
+| metal | chop Suey | System of the Down |  |  |  |
+| metal | Enter Sandman | Metallica |  |  |  |
+| metal | Paranoia | A Day to Remember |  |  |  |
+| metal | Tears Don't Fall | Bullet for My Valentine |  |  |  |
+| pop | All Star | Smash Mouth |  |  |  |
+| pop | Blank Space | Taylor Swift |  |  |  |
+| pop | I Gotta Feeling | Black Eyed Peas |  |  |  |
+| pop | Locked Out of Heaven | Bruno Mars |  |  |  |
+| pop | Teenage Dream | Katy Perry |  |  |  |
 
 ### Inputs
 
