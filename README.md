@@ -91,23 +91,28 @@ Review 5 songs from each genre, then cross-compare their sound waves and see if 
 | hiphop | big poppa | Notrious B.I.G |  |  | TRUE |
 | hiphop | hey ya | Outkast |  |  | TRUE |
 | hiphop | feel good | Gorrillaz |  |  | TRUE |
-| hiphop | wu tang ain't nothing to f'wit | Wu Tang Clan |  |  |  |
+| hiphop | wu tang ain't nothing to f'wit | Wu Tang Clan |  |  | TRUE |
 | hiphop | neon cathedral | Macklemore |  |  | TRUE |
 | indie | cameras | Matt and Kim |  |  | TRUE |
 | indie | home | Edward Sharpe and Magnetic Zeroes |  |  | TRUE |
-| indie | Budapest Hotel | George Ezra |  |  |  |
-| indie | Little Lion Man | Mumford and Sons |  |  |  |
-| indie | Twin Size Mattress | The Front Bottoms |  |  |  |
-| metal | almost easy | Avenged Sevenfold |  |  |  |
-| metal | chop Suey | System of the Down |  |  |  |
-| metal | Enter Sandman | Metallica |  |  |  |
-| metal | Paranoia | A Day to Remember |  |  |  |
-| metal | Tears Don't Fall | Bullet for My Valentine |  |  |  |
-| pop | All Star | Smash Mouth |  |  |  |
-| pop | Blank Space | Taylor Swift |  |  |  |
-| pop | I Gotta Feeling | Black Eyed Peas |  |  |  |
-| pop | Locked Out of Heaven | Bruno Mars |  |  |  |
-| pop | Teenage Dream | Katy Perry |  |  |  |
+| indie | Budapest Hotel | George Ezra |  |  | TRUE |
+| indie | Little Lion Man | Mumford and Sons |  |  | TRUE |
+| indie | Twin Size Mattress | The Front Bottoms |  |  | TRUE |
+| metal | almost easy | Avenged Sevenfold |  |  | TRUE |
+| metal | chop Suey | System of the Down |  |  | TRUE |
+| metal | Enter Sandman | Metallica |  |  | TRUE |
+| metal | Paranoia | A Day to Remember |  |  | TRUE |
+| metal | Tears Don't Fall | Bullet for My Valentine |  |  | TRUE |
+| pop | All Star | Smash Mouth |  |  | TRUE |
+| pop | Blank Space | Taylor Swift |  |  | TRUE |
+| pop | I Gotta Feeling | Black Eyed Peas |  |  | TRUE |
+| pop | Locked Out of Heaven | Bruno Mars |  |  | TRUE |
+| pop | Teenage Dream | Katy Perry |  |  | TRUE |
+| reggae | Count Me In | Pepper |  |  | TRUE |
+| reggae | house |  |  |  | TRUE |
+| reggae | Lay Me Down | Dirty Heads |  |  |  |
+| reggae | Santera | Sublime |  |  |  |
+| reggae |  |  |  |  |  |
 
 ### Inputs
 
