@@ -81,38 +81,52 @@ Review 5 songs from each genre, then cross-compare their sound waves and see if 
     * What is Hip? - Tower of Power
     * Superstition - Stevie Wonder
 
-
 | genre | song name | song artist | song duration | meta data | index/value csv created? |
 |--------|--------------------------------|-------------------|---------------|-----------|--------------------------|
-| edm | Hi Friend | deadmouse |  |  | TRUE |
-| edm | jar of hearts | twenty one pilots |  |  | TRUE |
-| edm | kids | MGMT |  |  | TRUE |
-| edm | recess | Skrllex |  |  | TRUE |
-| hiphop | big poppa | Notrious B.I.G |  |  | TRUE |
-| hiphop | hey ya | Outkast |  |  | TRUE |
-| hiphop | feel good | Gorrillaz |  |  | TRUE |
-| hiphop | wu tang ain't nothing to f'wit | Wu Tang Clan |  |  | TRUE |
-| hiphop | neon cathedral | Macklemore |  |  | TRUE |
-| indie | cameras | Matt and Kim |  |  | TRUE |
-| indie | home | Edward Sharpe and Magnetic Zeroes |  |  | TRUE |
-| indie | Budapest Hotel | George Ezra |  |  | TRUE |
-| indie | Little Lion Man | Mumford and Sons |  |  | TRUE |
-| indie | Twin Size Mattress | The Front Bottoms |  |  | TRUE |
-| metal | almost easy | Avenged Sevenfold |  |  | TRUE |
-| metal | chop Suey | System of the Down |  |  | TRUE |
-| metal | Enter Sandman | Metallica |  |  | TRUE |
-| metal | Paranoia | A Day to Remember |  |  | TRUE |
-| metal | Tears Don't Fall | Bullet for My Valentine |  |  | TRUE |
-| pop | All Star | Smash Mouth |  |  | TRUE |
-| pop | Blank Space | Taylor Swift |  |  | TRUE |
-| pop | I Gotta Feeling | Black Eyed Peas |  |  | TRUE |
-| pop | Locked Out of Heaven | Bruno Mars |  |  | TRUE |
-| pop | Teenage Dream | Katy Perry |  |  | TRUE |
-| reggae | Count Me In | Pepper |  |  | TRUE |
-| reggae | house |  |  |  | TRUE |
-| reggae | Lay Me Down | Dirty Heads |  |  |  |
-| reggae | Santera | Sublime |  |  |  |
-| reggae |  |  |  |  |  |
+| Edm | Hi Friend | deadmouse |  |  | TRUE |
+| Edm | jar of hearts | twenty one pilots |  |  | TRUE |
+| Edm | kids | MGMT |  |  | TRUE |
+| Edm | recess | Skrllex |  |  | TRUE |
+| Hiphop | big poppa | Notrious B.I.G |  |  | TRUE |
+| Hiphop | hey ya | Outkast |  |  | TRUE |
+| Hiphop | feel good | Gorrillaz |  |  | TRUE |
+| Hiphop | wu tang ain't nothing to f'wit | Wu Tang Clan |  |  | TRUE |
+| Hiphop | neon cathedral | Macklemore |  |  | TRUE |
+| Indie | cameras | Matt and Kim |  |  | TRUE |
+| Indie | home | Edward Sharpe and Magnetic Zeroes |  |  | TRUE |
+| Indie | Budapest Hotel | George Ezra |  |  | TRUE |
+| Indie | Little Lion Man | Mumford and Sons |  |  | TRUE |
+| Indie | Twin Size Mattress | The Front Bottoms |  |  | TRUE |
+| Metal | almost easy | Avenged Sevenfold |  |  | TRUE |
+| Metal | chop Suey | System of the Down |  |  | TRUE |
+| Metal | Enter Sandman | Metallica |  |  | TRUE |
+| Metal | Paranoia | A Day to Remember |  |  | TRUE |
+| Metal | Tears Don't Fall | Bullet for My Valentine |  |  | TRUE |
+| Pop | All Star | Smash Mouth |  |  | TRUE |
+| Pop | Blank Space | Taylor Swift |  |  | TRUE |
+| Pop | I Gotta Feeling | Black Eyed Peas |  |  | TRUE |
+| Pop | Locked Out of Heaven | Bruno Mars |  |  | TRUE |
+| Pop | Teenage Dream | Katy Perry |  |  | TRUE |
+| Reggae | Count Me In | Pepper |  |  | TRUE |
+| Reggae | house |  |  |  | TRUE |
+| Reggae | Lay Me Down | Dirty Heads |  |  | TRUE |
+| Reggae | Santera | Sublime |  |  | TRUE |
+| Reggae |  |  |  |  |  |
+| Rap | Breath of Air | Grieves |  |  | TRUE |
+| Rap | Best Friend | Yelawolf |  |  | TRUE |
+| Rap | Till I Collapse | Eminem |  |  | TRUE |
+| Rap | Sloopy Seconds | Watsky |  |  | TRUE |
+| Rap | Lace Up | MGK |  |  | TRUE |
+| Rock | Boogie | ZZ Top |  |  | TRUE |
+| Rock | Cult of Personality | Yelawolf |  |  | TRUE |
+| Rock | Even Flow | Pearl Jam |  |  |  |
+| Rock | Make Sure | Taking Back Sunday |  |  |  |
+| Rock | Sail | Imagine Dragons |  |  |  |
+| Soul | Africa | Toto |  |  |  |
+| Soul | Saturday | Chicago |  |  |  |
+| Soul | September | Earth Wind & Fire |  |  |  |
+| Soul | Superstition | Stevie Wonder |  |  |  |
+| Soul | What is Hip | Tower of Power |  |  |  |
 
 ### Inputs
 
@@ -160,6 +174,8 @@ dump file of sound analysis in an array of objects.
 * [Processing](https://processing.org/)
 
 * [SoundFile](https://processing.org/reference/libraries/sound/FFT.html)
+
+* [ReadCSV] (https://www.mkyong.com/java/how-to-read-and-parse-csv-file-in-java/)
 
 ### Readings
 
