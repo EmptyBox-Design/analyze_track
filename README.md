@@ -110,7 +110,7 @@ Review 5 songs from each genre, then cross-compare their sound waves and see if 
 | Reggae | Count Me In | Pepper |  |  | TRUE |
 | Reggae | house |  |  |  | TRUE |
 | Reggae | Lay Me Down | Dirty Heads |  |  | TRUE |
-| Reggae | Santera | Sublime |  |  | TRUE |
+| Reggae | Santeria | Sublime |  |  | TRUE |
 | Reggae |  |  |  |  |  |
 | Rap | Breath of Air | Grieves |  |  | TRUE |
 | Rap | Best Friend | Yelawolf |  |  | TRUE |
@@ -119,14 +119,14 @@ Review 5 songs from each genre, then cross-compare their sound waves and see if 
 | Rap | Lace Up | MGK |  |  | TRUE |
 | Rock | Boogie | ZZ Top |  |  | TRUE |
 | Rock | Cult of Personality | Yelawolf |  |  | TRUE |
-| Rock | Even Flow | Pearl Jam |  |  |  |
+| Rock | Even Flow | Pearl Jam |  |  | TRUE |
 | Rock | Make Sure | Taking Back Sunday |  |  |  |
-| Rock | Sail | Imagine Dragons |  |  |  |
-| Soul | Africa | Toto |  |  |  |
-| Soul | Saturday | Chicago |  |  |  |
-| Soul | September | Earth Wind & Fire |  |  |  |
-| Soul | Superstition | Stevie Wonder |  |  |  |
-| Soul | What is Hip | Tower of Power |  |  |  |
+| Rock | Sail | Imagine Dragons |  |  | TRUE |
+| Soul | Africa | Toto |  |  | TRUE |
+| Soul | Saturday | Chicago |  |  | TRUE |
+| Soul | September | Earth Wind & Fire |  |  | TRUE |
+| Soul | Superstition | Stevie Wonder |  |  | TRUE |
+| Soul | What is Hip | Tower of Power |  |  | TRUE |
 
 ### Inputs
 
@@ -177,6 +177,7 @@ dump file of sound analysis in an array of objects.
 
 * [ReadCSV] (https://www.mkyong.com/java/how-to-read-and-parse-csv-file-in-java/)
 
+* [Analyze Area] (https://stackoverflow.com/questions/25439243/find-the-area-between-two-curves-plotted-in-matplotlib-fill-between-area)
 ### Readings
 
 Goldhagen, Sarah Williams. Welcome to Your World: How the Built Environment Shapes Our Lives. Harper, an Imprint of HarperCollinsPublishers, 2017.
