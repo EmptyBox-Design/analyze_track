@@ -17,7 +17,7 @@ def createSongArray (song):
                 currentSongArray.append(float(row[1]))
 
     return currentSongArray
-                    
+
 def matchAgainstSongs (currentSongArray):
     with open("data.csv", newline='') as csvfile:
         f = csv.reader(csvfile, delimiter=',', quotechar='|')
@@ -36,3 +36,4 @@ def matchAgainstSongs (currentSongArray):
 
 createdSongArrays = createSongArray('songData/all_star.csv')
 comparasionMatch = matchAgainstSongs(createdSongArrays)
+print('comparasionMatch: ', comparasionMatch)
