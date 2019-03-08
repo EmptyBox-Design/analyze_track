@@ -1,7 +1,8 @@
 import csv
-import librosa
+import statistics
 import numpy
-
+from librosa_analyze import librosaGetFeatures
+ 
 class writeData:
     def __init__(self):
         self.writeCSV = list()
@@ -9,28 +10,22 @@ class writeData:
     def removeSongExtension(self,songPath):
         return songPath.split(".",2)[0]
 
-    def mergeArrays(self, a, b, c):
-        mergeArray = list()
-        
-        j = 0
-        while j < len(a):
-            mergeArray.append([j,a[j], b[j], c[j]])
-            j +=1
+    def getSpectrumStats(self,a):
+        sd = statistics.stdev(a)
+        mean = statistics.mean(a)
+        cv = (sd/mean)*100
 
-        return mergeArray
+        return [sd, mean, cv]
 
     def createSongData(self,songPath):
         print('songPath: ', songPath)
-        y , sr = librosa.load(songPath)
-        tempo,beats = librosa.beat.beat_track(y=y, sr=sr)
-        frames = librosa.frames_to_time(beats, sr=sr)
-        cent = librosa.feature.spectral_centroid(y=y, sr=sr)
-
-        return self.mergeArrays(frames, beats, cent[0])
+        lb = librosaGetFeatures(songPath)
+        cent = lb.getSpectrumArray()
+        return self.getSpectrumStats(cent)
 
     def write(self,inputSong, songName):
         
-        header = ["index","frame","value","spectrum"]
+        header = ["spectrumStandardDeviation","spectrumMean", "spectrumCoefficientVariance"]
         self.writeCSV.append(header)
 
         with open("./SongData/"+self.removeSongExtension(songName)+".csv",'w', newline="", encoding="UTF-8") as f:
@@ -38,10 +33,7 @@ class writeData:
 
             k = 0
             data = self.createSongData(inputSong)
-            while k < len(data):
-                if(k == 0):
-                    writer.writerow(header)
-                writer.writerow(data[k])
-                k += 1
+            writer.writerow(header)
+            writer.writerow(data)
 
         return True

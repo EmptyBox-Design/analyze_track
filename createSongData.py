@@ -47,7 +47,7 @@ def generateSongData(songList):
     start = time.time()
     counter = len(songList)
     for song in songList:
-        wb.write("/Users/bamforion/Documents/Processing/analyze_track/data/"+song, song)
+        wb.write(song, song)
         counter-=1
         print(counter,"/", len(songList))
     end = time.time()

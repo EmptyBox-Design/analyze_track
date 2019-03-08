@@ -13,16 +13,7 @@ class createDataCSV:
         return alist.split("/",2)[1]
 
     def compareList(self,a,b):
-
-        sdA = statistics.stdev(a)
-        meanA = statistics.mean(a)
-        cvA = (sdA/meanA)*100
-
-        sdB = statistics.stdev(b)
-        meanB = statistics.mean(b)
-        cvB = (sdB/meanB)*100
-
-        return abs(cvA - cvB)
+        return abs(a - b)
 
     # creates list from song data directory
     def createGlobalListFromDirectory (self,directory):
@@ -35,19 +26,22 @@ class createDataCSV:
             with open(path_in_str, newline='') as csvfile:
                 reader = csv.reader(csvfile, delimiter=',', quotechar='|')
                 # array of values
-                valueArray = []
+                # valueArray = []
                 # empty dict for creating dump file
                 d = dict()
                 # iterate through each row and fill in dump file with array values
                 for row in reader:
                     # dummy check to exclue header row
-                    if(row[1] != 'frame'):
+                    if(row[0] != 'spectrumStandardDeviation'):
                         # append spectrum reading to list
-                        valueArray.append(float(row[3]))
+                        # valueArray.append(float(row[3]))
+                        d["spectrumStandardDeviation"] = row[0]
+                        d["spectrumMean"] = row[1]
+                        d["spectrumCoefficientVariance"] = row[2]
 
                 # field names added to object
                 d['songName'] = self.partitionSongName(path_in_str)
-                d['values'] = valueArray
+                # d['values'] = valueArray
                 d['songList'] = []
                 # append object to global list
                 self.dataList.append(d.copy())
@@ -61,7 +55,7 @@ class createDataCSV:
         for d in rawList:
             for e in rawList:
                 if(d['songName'] != e['songName']):
-                    sm = self.compareList(d['values'], e['values'])
+                    sm = self.compareList(float(d['spectrumCoefficientVariance']), float(e['spectrumCoefficientVariance']))
                     obj = [e['songName'], sm]
                     d['songList'].append(obj)
 
@@ -73,18 +67,18 @@ class createDataCSV:
         return rawList
 
     def writeDataToCSV(self,sortedData):
-        header = ["song_name","average","standard_deviation","variance","coefficent_variance","rank_1_name","rank_1_score","rank_2_name","rank_2_score","rank_3_name","rank_3_score"]
+        header = ["song_name","spectrumMean","spectrumStandardDeviation","spectrumCoefficientVariance","rank_1_name","rank_1_score","rank_2_name","rank_2_score","rank_3_name","rank_3_score"]
         self.writeCSV.append(header)
 
         for c in sortedData:
-            average = statistics.mean(c['values'])
-            standardDeviation = statistics.stdev(c['values'])
-            variance = statistics.variance(c['values'])
-            coefficentVariance = (standardDeviation/average)*100
+            mean = c["spectrumMean"]
+            standardDeviation = c["spectrumStandardDeviation"]
+            # variance = statistics.variance(c['values'])
+            coefficentVariance = c["spectrumCoefficientVariance"]
             rank_1 = c['songList'][0]
             rank_2 = c['songList'][1]
             rank_3 = c['songList'][2]
-            o = [c['songName'], average, standardDeviation, variance, coefficentVariance
+            o = [c['songName'], mean, standardDeviation, coefficentVariance
             ,rank_1[0],rank_1[1] ,rank_2[0], rank_2[1], rank_3[0],rank_3[1]]
             self.writeCSV.append(o)
 
