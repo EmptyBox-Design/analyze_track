@@ -1,6 +1,6 @@
 import csv
 import statistics
-from csvWrite import writeData
+from librosa_analyze import librosaGetFeatures
 import pygame
 from pygame import mixer
 
@@ -20,8 +20,8 @@ def createSongArray (song):
     # dump array
     # currentSongArray = []
     # init librosa comparison 
-    lb = writeData()
-    inputSongArray = lb.createSongData(song)
+    lb = librosaGetFeatures(song)
+    inputSongArray = lb.getSpectrumArray()
     # print('inputSongArray: ', inputSongArray)
     standarDeviation = statistics.stdev(inputSongArray)
     print('standarDeviation: ', standarDeviation)
@@ -38,8 +38,9 @@ def createSongArray (song):
     #     for row in f:
     #         if(row[1] != 'value'):
     #             currentSongArray.append(float(row[1]))
-    # match = matchAgainstSongs(coefficientVariance)
-    # playSong(match)
+    match = matchAgainstSongs(coefficientVariance)
+    print('match: ', match)
+    playSong(match)
 
 def matchAgainstSongs (coefficientVariance):
     with open("data.csv", newline='') as csvfile:
@@ -48,11 +49,10 @@ def matchAgainstSongs (coefficientVariance):
         finalCompareList = []
         # skip header row
         for row in f:
-            if(row[2] != "standard_deviation"):
+            if(row[1] != "spectrumMean"):
                 # input input songs CV, and comparision songs CV
                 # output is the difference
-                print("what we are matching against: ",row[0], float(row[4]))
-                compare = compareCVs(coefficientVariance, float(row[4]))
+                compare = compareCVs(coefficientVariance, float(row[3]))
                 # append to list for sorting 
                 finalCompareList.append((row[0], compare))
         # sort in decending order
@@ -73,4 +73,4 @@ def playSong (inputSongPath):
         pygame.event.poll()
         clock.tick(10)
 
-createSongArray("/Users/bamforion/Documents/Processing/analyze_track/data/twenty_one_pilots__jar.mp3")
+createSongArray("avenged_sevenfold__almost_easy.mp3")
