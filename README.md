@@ -177,6 +177,8 @@ dump file of sound analysis in an array of objects.
 
 * [ReadCSV] (https://www.mkyong.com/java/how-to-read-and-parse-csv-file-in-java/)
 
+* [Spectral Comparrison] (https://ccrma.stanford.edu/~unjung/AIR/areaExam.pdf)
+
 * [Analyze Area] (https://stackoverflow.com/questions/25439243/find-the-area-between-two-curves-plotted-in-matplotlib-fill-between-area)
 ### Readings
 
