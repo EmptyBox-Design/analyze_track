@@ -30,8 +30,7 @@ class writeData:
 
         with open("./SongData/"+self.removeSongExtension(songName)+".csv",'w', newline="", encoding="UTF-8") as f:
             writer = csv.writer(f)
-
-            k = 0
+            
             data = self.createSongData(inputSong)
             writer.writerow(header)
             writer.writerow(data)

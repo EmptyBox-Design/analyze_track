@@ -7,8 +7,8 @@ class librosaGetFeatures:
         self.beats = 0
         self.frames = 0
         self.tempo = 0
-        self.path = "/Users/bamforion/Documents/Processing/analyze_track/data/"
-        self.y , self.sr = librosa.load(self.path+song)
+        # self.path = "/Users/bamforion/Documents/Processing/analyze_track/data/"
+        self.y , self.sr = librosa.load(song)
 
     def getSpectrumArray(self):
         self.spectrumArray  = librosa.feature.spectral_centroid(y=self.y, sr=self.sr)
